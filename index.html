@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WIKITRAVEL</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/jquery-ui.min.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Gowun+Dodum&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Metal&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script src="./js//jquery-ui.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="wrap">
+            <h1><a href="#"><img src="./image/LOGO.png" alt="logo"></a></h1>
+            <div class="search">
+                <input type="text" placeholder="검색어를 입력하세요">
+                <img src="./image/search.svg" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">베스트</a></li>
+                    <li><a href="#">국내여행</a></li>
+                    <li><a href="#">해외여행</a></li>
+                    <li><a href="#">테마여행</a></li>
+                </ul>
+            </nav>
+            <div class="login">
+                <ul>
+                    <li><a href="#">LOGIN</a></li>
+                    <li><a href="#">MY PAGE</a></li>
+                </ul>
+            </div>
+            <div class="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <div id="visual">
+        <div class="v_txt">
+            <p>새로운 여행을 꿈꾸는 우리에게 <i>WIKITRAVEL</i>이 함께합니다.</p>
+            <span>여행은 언제나 새로우니까, <i>WIKITRAVEL</i></span>
+        </div>
+        <div class="reser_box">
+            <p>내가 갈 여행 빠르게 알아보기</p>
+            <input type="text" placeholder="여행지를 입력하세요">
+            <input type="text" placeholder="출발지를 입력하세요">
+            <input type="text" placeholder="나의 여행 시작일">
+        </div>
+        <div class="line"></div>
+        <div class="reser_box2">
+            <a href="#">빠른 여행 바로가기</a>
+            <a href="#">추천 여행 바로가기</a>
+            
+        </div>
+    </div>
+    <div class="subpage">
+        <ul class="left">
+            <li><a href="#">국내숙소</a></li>
+            <li><a href="#">해외숙소</a></li>
+            <li><a href="#">항공</a></li>
+            <li><a href="#">항공&#183;숙소</a></li>
+            <li><a href="#">레저&#183;티켓</a></li>
+            <li><a href="#">이벤트</a></li>
+            <li><a href="#">회원가입</a></li>
+            <li><a href="#">비회원 예약 조회</a></li>
+            <li><a href="#">고객센터</a></li>
+        </ul>
+        <ul class="right">
+            <li><span></span></li>
+            <li><span></span></li>
+        </ul>
+    </div>
+    <div class="page2">
+        <div class="p2_best1">
+            <div class="p2_left">
+                <div class="p2_left1">
+                    <span></span>
+                    <a href="#">
+                        <p>국내 BEST 여행지</p>
+                    </a>
+                </div>
+                <div class="p2_left2">
+                    <span></span>
+                    <a href="#">
+                        <p>해외 BEST 여행지</p>
+                    </a>
+                </div>
+                <div class="p2_left3">
+                    <span></span>
+                    <a href="#">
+                        <p>테마 BEST 여행지</p>
+                    </a>
+                </div>
+            </div>
+            <div class="p2_center">
+                    <div class="item">
+                        <img src="./image/Gangneung.jfif" alt="강릉">
+                        <p>강릉</p>
+                    </div>
+                    <div class="item">
+                        <img src="./image/Gyeongju.jfif" alt="경주">
+                        <p>경주</p>
+                    </div>
+                    <div class="item">
+                        <img src="./image/Sokcho_01_20231103164551.jfif" alt="속초">
+                        <p>속초</p>
+                    </div>
+                    <div class="item">
+                        <img src="./image/Yeo_su.jfif" alt="여수">
+                        <p>여수</p>
+                    </div>
+                    <div class="item">
+                        <img src="./image/JEJU.jfif" alt="제주">
+                        <p>제주</p>
+                    </div>
+                    <div class="item">
+                        <img src="./image/Incheon.jfif" alt="인천">
+                        <p>인천</p>
+                    </div>
+                    <div class="item">
+                        <img src="./image/Haeundae.jpeg" alt="해운대">
+                        <p>해운대</p>
+                    </div>
+                    <div class="item">
+                        <img src="./image/Busan.jpeg" alt="부산">
+                        <p>부산</p>
+                    </div>
+                </div>
+                <div class="p2_right">
+                    <button><a href="#">바로 예약하기</a></button>
+                </div>
+            </div>
+            <div class="p2_best2">
+                <div class="p2_center">
+                    <div class="item">
+                        <img src="./image/Kota_Kinabalu.jfif" alt="코타키나발루">
+                        <p>코타키나 발루</p>
+                    </div>
+                    <div class="item">
+                        <img src="./image/Singapore.jfif" alt="싱가포르">
+                        <p>싱가포르</p>
+                    </div>
+                    <div class="item">
+                        <img src="./image/Osaka.jfif" alt="오사카">
+                        <p>오사카</p>
+                    </div>
+                    <div class="item">
+                        <img src="./image/Nha_Trang.jfif" alt="나트랑">
+                        <p>나트랑</p>
+                    </div>
+                    <div class="item">
+                        <img src="./image/Guam.jfif" alt="괌">
+                        <p>괌</p>
+                    </div>
+                    <div class="item">
+                        <img src="./image/Fukuoka.jfif" alt="후쿠오카">
+                        <p>후쿠오카</p>
+                    </div>
+                    <div class="item">
+                        <img src="./image/Kyoto.jfif" alt="도쿄">
+                        <p>도쿄</p>
+                    </div>
+                    <div class="item">
+                        <img src="./image/Kyoto.jpeg" alt="쿄토">
+                        <p>쿄토</p>
+                    </div>
+                </div>
+            </div>
+            <div class="p2_best3">
+                <div class="p2_center">
+                    <div class="item">
+                        <img src="./image/tema1.png" alt="트레킹">
+                        <p>스페인 산티아고 순례길</p>
+                    <button><a href="#">트레킹&#47;레저 여행지 더보기</a></button>
+                </div>
+                <div class="item">
+                    <img src="./image/tema2.png" alt="골프">
+                    <p>치앙마이 다색골프</p>
+                    <button><a href="#">해외골프 여행지 더보기</a></button>
+                </div>
+                <div class="item">
+                    <img src="./image/tema3.png" alt="크루즈">
+                    <p>카리브해 이색 크루즈</p>
+                    <button><a href="#">크루즈 여행지 더보기</a></button>
+                </div>
+                <div class="item">
+                    <img src="./image/tema4.png" alt="허니문">
+                    <p>발리 허니문</p>
+                    <button><a href="#">허니문 여행지 더보기</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page3">
+        <h3>여러분을 위한 갓&#33; 성비 여행</h3>
+        <div class="p3_line"></div>
+        <div class="p3_center slide">
+            <div class="item">
+                <img src="./image/god1.png" alt="사이판">
+                <b>갓&#33;성비 인기 여행 사이판 5일</b>
+                <span>300,900원</span>
+            </div>
+            <div class="item">
+                <img src="./image/god2.png" alt="다낭">
+                <b>갓&#33;성비 인기 여행 다낭&#47;호이안 5일</b>
+                <span>300,900원</span>
+            </div>
+            <div class="item">
+                <img src="./image/god3.png" alt="푸꾸옥">
+                <b>갓&#33;성비 인기 여행 푸꾸옥 5일</b>
+                <span>300,900원</span>
+            </div>
+            <div class="item">
+                <img src="./image/god4.png" alt="코타키나발루">
+                <b>갓&#33;성비 인기 여행 코타키나 발루 5일</b>
+                <span>300,900원</span>
+            </div>
+            <div class="item">
+                <img src="./image/god5.png" alt="코타키나발루">
+                <b>갓&#33;성비 인기 여행 코타키나 발루 5일</b>
+                <span>300,900원</span>
+            </div>
+            <div class="item">
+                <img src="./image/god6.png" alt="코타키나발루">
+                <b>갓&#33;성비 인기 여행 코타키나 발루 5일</b>
+                <span>300,900원</span>
+            </div>
+            <div class="item">
+                <img src="./image/god7.png" alt="코타키나발루">
+                <b>갓&#33;성비 인기 여행 코타키나 발루 5일</b>
+                <span>300,900원</span>
+            </div>
+            <div class="item">
+                <img src="./image/god8.png" alt="코타키나발루">
+                <b>갓&#33;성비 인기 여행 코타키나 발루 5일</b>
+                <span>300,900원</span>
+            </div>
+        </div>
+        <div class="p3_bottom">
+            <button><a href="#">바로 예약하기</a></button>
+            <button><a href="#">더 찾아보기</a></button>
+        </div>
+    </div>
+    <div class="page7">
+        <div class="p7_txt">
+            <h3>내게 남은 연차가 있다면&#63; 지금바로 둘러보세요</h3>
+            <ul>
+                <li>연차 부자의 플렉스💎</li>
+                <li>연차 3&#126;4개라면 여유있게 중거리</li>
+                <li>연차 1&#126;2개 국내여행</li>
+                <li>연차 1&#126;2개 해외여행</li>
+            </ul>
+        </div>
+        <div class="p7_img">
+            <a href="#">
+                <img src="./image/pkg1.png" alt="">
+                <div class="p7_img_txt">
+                    <span>패키지</span>
+                    <h4>두바이&#47;아부다비 5&#126;7일</h4>
+                    <b>	&#35;도우디너 전망대 &#35;에티하드타원 전망대</b>
+                    <i>1&#44;199&#44;000</i>
+                </div>
+            </a>
+            <a href="#">
+                <img src="./image/pkg3.png" alt="">
+                <div class="p7_img_txt">
+                    <span>패키지</span>
+                    <h4>두바이&#47;아부다비 5&#126;7일</h4>
+                    <b>	&#35;도우디너 전망대 &#35;에티하드타원 전망대</b>
+                    <i>1&#44;199&#44;000</i>
+                </div>
+            </a>
+            <a href="#">
+                <img src="./image/pkg4.png" alt="">
+                <div class="p7_img_txt">
+                    <span>패키지</span>
+                    <h4>두바이&#47;아부다비 5&#126;7일</h4>
+                    <b>	&#35;도우디너 전망대 &#35;에티하드타원 전망대</b>
+                    <i>1&#44;199&#44;000</i>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="page4">
+        <h3>여러분을 위한 패키지 여행</h3>
+        <div class="p4_line"></div>
+        <div class="p4_center slide">
+            <div class="item">
+                <img src="./image/pakege1.png" alt="보홀">
+                <b>패키지 인기 여행지 보홀 5일</b> 
+                <span>1,000,000원</span>
+            </div>
+            <div class="item">
+                <img src="./image/pakege2.png" alt="오키나와">
+                <b>패키지 인기 여행지 오키나와 5일</b>
+                <span>1,000,000원</span>
+            </div>
+            <div class="item">
+                <img src="./image/pakege3.png" alt="보홀">
+                <b>패키지 인기 여행지 보홀 5일</b>
+                <span>1,000,000원</span>
+            </div>
+            <div class="item">
+                <img src="./image/pakege4.png" alt="구랑위">
+                <b>패키지 인기 여행지 구랑위 5일</b>
+                <span>1,000,000원</span>
+            </div>
+            <div class="item">
+                <img src="./image/pakege5.png" alt="구랑위">
+                <b>패키지 인기 여행지 구랑위 5일</b>
+                <span>1,000,000원</span>
+            </div>
+            <div class="item">
+                <img src="./image/pakege6.png" alt="구랑위">
+                <b>패키지 인기 여행지 구랑위 5일</b>
+                <span>1,000,000원</span>
+            </div>
+            <div class="item">
+                <img src="./image/pakege7.png" alt="구랑위">
+                <b>패키지 인기 여행지 구랑위 5일</b>
+                <span>1,000,000원</span>
+            </div>
+            <div class="item">
+                <img src="./image/pakege8.png" alt="구랑위">
+                <b>패키지 인기 여행지 구랑위 5일</b>
+                <span>1,000,000원</span>
+            </div>
+        </div>
+        <div class="p4_bottom">
+            <button><a href="#">바로 예약하기</a></button>
+            <button><a href="#">더 찾아보기</a></button>
+        </div>
+    </div>
+    <div class="page5">
+        <div class="p5_center">
+            <div class="p5_cen_txt">
+                <p>국내부터 해외까지 <span>나만의 여행 가이드</span></p>
+                <h4>WIKITRAVEL</h4>
+            </div>
+            <div><img src="./image/e1.png" alt=""></div>
+            <div><img src="./image/e2.png" alt=""></div>
+            <div><img src="./image/e3.png" alt=""></div>
+            <div><img src="./image/e4.png" alt=""></div>
+        </div>
+        <b>출발 부터 도착까지 내가 원하는 여행 가이드를 받아보세요</b>
+        <div class="p5_bottom">
+            <div class="p5_bottom_1">
+                <label for="from">출발</label>
+                <input type="text" id="from" name="from">
+                <label for="to">도착</label>
+                <input type="text" id="to" name="to">
+                <label for="to">가고싶은 여행지</label>
+                <input type="text">
+                <button><a href="#">가이드 뽑아보기</a></button>
+            </div>
+            <div class="p5_guide">
+                <p>여행 가이드</p>
+                <div class="guide"></div>
+            </div>
+        </div>
+    </div>
+    <div class="page6">
+        <div class="p1_txt">
+            <h2>내가 가고 싶은 곳을 한번에, 간편하게</h2>
+            <p>WIKITRAVEL</p>
+        </div>
+        <button><a href="#">다시 둘러보기</a></button>
+    </div>
+    <footer>
+        <div class="left">
+            <h5>LOCATION</h5>
+            <div class="left1">
+                <span>서울특별시</span>
+                <span>&#40;대표번호	&#41;02&#45;0000&#45;0000</span>
+                <span>개인정보처리방침 </span>
+            </div>
+            <div class="left2">
+                <span>접근성 안내</span>
+                <span>이메일무단수집거부</span>
+                <span>함께한 사람들</span>
+            </div>
+            <div class="left3">
+                <p>&#40;고객센터&#41;02&#45;0000&#45;0000</p>
+            </div>
+        </div>
+            <div class="right">
+                <a href="#"><img src="./image/foo_logo.png" alt=""></a>
+            </div>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>
